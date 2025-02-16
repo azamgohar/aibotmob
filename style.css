@@ -331,12 +331,12 @@ body.hide_header .header{
 /* Responsive media query code for small screen */
 @media (max-width: 769px) {
     .header :is(.title, .subtitle) {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 2.6rem;
         margin: auto;
         text-align: center;
     }
-
+/* 
     .suggession_list .suggession {
         padding: 1.25rem;
         cursor: pointer;
@@ -348,8 +348,7 @@ body.hide_header .header{
         justify-content: space-between;
         border-radius: 0.25rem;
         background: var(--secondary-color);
-        /* background: #E9EEF6; */
-    }
+    } */
     .suggession_list .suggession .icon {
         height: 42px;
         width: 42px;
@@ -361,10 +360,10 @@ body.hide_header .header{
         border-radius: 50%;
         background: var(--primary-color);
     }
-    .suggession_list .suggession .text {
+    /* .suggession_list .suggession .text {
         font-size: 1.25rem;
         font-weight: 400;
-    }
+    } */
 
     .header .subtitle {
         font-size: 1.7rem;
